@@ -23,7 +23,7 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item ml-lg 4" style="margin-right: 20px;">
-                        <a class="nav-link" href="page1.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item ml-lg 4" style="margin-right: 20px;">
                         <a class="nav-link" href="#">Menu</a>
@@ -43,10 +43,9 @@
             </div>
         </div>
     </nav>
-    <h1>Start you day
-    <br>with a black coffee</h1>
+    <h1>Start your day<br>with a black coffee</h1>
     <p style="font-size: 25px">
-        choose and taste delicious coffee from<br>the best beans.
+        Choose and taste delicious coffee from<br>the best beans.
     </p>
     <form class="order">
         <button type="button" class="btn btn-primary custom-btn" style="background-color: rgb(155, 95, 21); margin-left: 75px; border-color: rgb(155, 95, 21); font-size: 20px; padding: 5px 40px;">Order Now</button>
@@ -61,7 +60,6 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="carousel-item-inner d-flex justify-content-center">
-
                         <!-- First Card -->
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px; margin-left: 25px;">
                             <div class="row g-0">
@@ -81,7 +79,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Second Card -->
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px">
                             <div class="row g-0">
@@ -101,7 +98,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Third Card -->
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px">
                             <div class="row g-0">
@@ -121,7 +117,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Add more cards here -->
                     </div>
                 </div>
@@ -175,7 +170,7 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title" style="margin-left: 40px;">Hot Chocolate</h5>
-                                        <p class="card-text" style="margin-left: -10px;">With Marsmallows</p>
+                                        <p class="card-text" style="margin-left: -10px;">With Marshmallows</p>
                                         <div class="d-flex align-items-center">
                                             <p class="card-text mb-0" style="margin-left: -10px;"><small class="text-body-secondary">Php 70.00</small></p>
                                             <!-- Add Button -->
@@ -201,7 +196,37 @@
             </div>
     </div>
     <br>
+
+    <!-- About Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalLabel">About KAPEling</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>KAPEling is a coffee shop that takes pride in sourcing the finest beans from around the world. Our story began with a passion for bringing the perfect cup of coffee to our community.</p>
+                    <p>Originating from [Insert Origin], we strive to create an atmosphere where coffee enthusiasts can come together to enjoy the rich flavors and aromas of our carefully crafted brews.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script to handle modal trigger -->
+    <script>
+        var aboutButton = document.querySelector('.nav-link[href="index.php"]');
+        aboutButton.addEventListener('click', function() {
+            var myModal = new bootstrap.Modal(document.getElementById('aboutModal'));
+            myModal.show();
+        });
+    </script>
 
 </body>
 </html>
