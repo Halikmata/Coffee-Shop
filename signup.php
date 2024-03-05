@@ -35,7 +35,15 @@
             </div>  
 
             <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="button" class="btn btn-secondary" onclick="goBack()"> Cancel </button>
         </form>
     </div>
+
+    <!-- JavaScript to handle exit button -->
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>

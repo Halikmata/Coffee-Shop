@@ -9,13 +9,6 @@
 </head>
 <body>
     <h2 style="text-align: center; margin-top: 30px;">Login</h2>
-    <!-- <form action="login_process.php" method="POST">
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br>
-        <input type="submit" value="Login">
-    </form> -->
     <div class="form-container mt-5" >
         <form>
             <div class="mb-3">
@@ -27,12 +20,16 @@
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <!-- <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div> -->
             <button type="submit" class="btn btn-primary">log in</button>
+            <button type="button" class="btn btn-secondary" onclick="goBack()"> Cancel </button>
         </form>
     </div>
+
+    <!-- JavaScript to handle exit button -->
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>
