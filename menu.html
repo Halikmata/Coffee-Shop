@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="designs.css">
+    <title>Our Menu</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg body-tertiary">
+        <div class="container-fluid" style="padding-left: 70px; margin-top: 30px;">
+            <a class="navbar-brand" href="#">
+                <img src="kapeling.png" width="60">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 20px">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="padding-left: 130px;">
+                    <li class="nav-item ml-lg 4" style="margin-right: 20px;">
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item ml-lg 4" style="margin-right: 20px;">
+                        <a class="nav-link" href="about.html" data-bs-toggle="modal" data-bs-target="#aboutModal">About</a>
+                    </li>
+                    <li class="nav-item ml-lg 4" style="margin-right: 20px;">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item ml-lg 4" style="margin-right: 20px;">
+                        <a class="nav-link" href="#">Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <a href="login.php" class="btn btn-outline-primary custom-btn" style="color: rgb(155, 95, 21); margin-left: 50px; border-color: rgb(155, 95, 21); padding: 2px 20px;">Log in</a>
+                    <a href="signup.php" class="btn btn-primary custom-btn" style="background-color: rgb(155, 95, 21); margin-left: 10px; margin-right: 50px; border-color: rgb(155, 95, 21); padding: 2px 20px;">Sign up</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="toggle-button">
+        <!-- Toggle Button Code -->
+        <div class="container">
+            <div class="btn-group" role="group" aria-label="Toggle between Pastries and Beverages">
+                <button type="button" class="btn btn-primary" id="beveragesBtn">Beverages</button>
+                <button type="button" class="btn btn-secondary" id="pastriesBtn">Pastries</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div class="container">
+        <h3 class="mt-5 mb-4" style="text-align: center;">Our Menu</h3>
+        
+        <!-- Beverages Section -->
+        <div id="beveragesSection" class="row">
+            <!-- Beverage menu items -->
+            <!-- First beverage item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="espresso.png" class="card-img-top" alt="Espresso">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Espresso Coffee</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">With Milk</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 80.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Second beverage item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="capuccino.png" class="card-img-top" alt="Capuccino">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Capuccino</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">With Chocolate</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 90.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Third beverage item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="latte art coffee.png" class="card-img-top" alt="Latte Art Coffee">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Latte Art Coffee</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">With Milk</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 110.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth beverage item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="matcha.png" class="card-img-top" alt="Matcha">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Matcha</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">With Milk</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 90.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth beverage item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="Frappe.png" class="card-img-top" alt="Frappe">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Vanilla Frappe</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">With Oreo</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 110.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Sixth beverage item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="hot_choco.png" class="card-img-top" alt="Choco">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Hot Choco</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">With Marshmallows</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 70.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <!-- Pastries Section -->
+        <div id="pastriesSection" class="row" style="display: none;">
+            <!-- Pastries menu items -->
+            <!-- First pastry item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="croissant.png" class="card-img-top" alt="Croissant">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Croissant</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Freshly Baked</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 60.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Second pastry item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="empanada.png" class="card-img-top" alt="empanada">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Empanada</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Chicken</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 60.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Third pastry item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="muffin.png" class="card-img-top" alt="Muffin">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Muffin</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Chocolate Chip</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 50.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth pastry item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="cheesecake.png" class="card-img-top" alt="cheesecake">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Cheesecake</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">With caramel drizzle</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 70.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth pastry item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="carrot cake.png" class="card-img-top" alt="carrot cake">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Carrot Cake</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Assorted Frosting</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 70.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Sixth pastry item -->
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="pan au chocolat.png" class="card-img-top" alt="pan au chocolat">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center; padding-left: 0px;">Pan Au Chocolat</h5>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Vegan friendly</p>
+                        <p class="card-text" style="text-align: center; padding-left: 0px;">Php 60.00</p>
+                        <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21)">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript for toggling between Beverages and Pastries -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const beveragesBtn = document.getElementById("beveragesBtn");
+            const pastriesBtn = document.getElementById("pastriesBtn");
+            const beveragesSection = document.getElementById("beveragesSection");
+            const pastriesSection = document.getElementById("pastriesSection");
+
+            beveragesBtn.addEventListener("click", function () {
+                beveragesBtn.classList.add("active");
+                pastriesBtn.classList.remove("active");
+                beveragesSection.style.display = "flex";
+                pastriesSection.style.display = "none";
+            });
+
+            pastriesBtn.addEventListener("click", function () {
+                pastriesBtn.classList.add("active");
+                beveragesBtn.classList.remove("active");
+                pastriesSection.style.display = "flex";
+                beveragesSection.style.display = "none";
+            });
+        });
+    </script>
+</body>
+</html>

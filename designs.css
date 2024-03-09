@@ -1,18 +1,17 @@
 body {
-    background-image: url('background.png');
+    background-image: url('images/background.png');
     /* background-size: auto;
     background-position: center;
     background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
     overflow-y: scroll;
     
 }
 ::-webkit-scrollbar {
-  width: 0; /* Remove scrollbar width */
-  background: transparent; /* Make the scrollbar background transparent */
+  width: 0;
+  background: transparent;
 }
 h1 {
     padding-left: 80px;
@@ -34,10 +33,15 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+/* .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+} */
 .nav a {
     text-align: center;
-  }
-  .form-buttons {
+}
+.form-buttons {
     margin-left: 20px; /* Add 20px margin to the left */
 }
 .custom-btn:hover {
@@ -51,33 +55,52 @@ p {
 /* Style for input fields */
 .input-group {
     margin-bottom: 15px;
-  }
-  
-  .form-control {
-    border-radius: 5px;
-  }
-  
-  /* Style for input group texts */
-  .input-group-text {
-    background-color: #f0f0f0;
-  }
-  
-  /* Style for the form container */
-  .form-container {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #fff;
-  }
-  
-  /* about us page */
-  .origin-container {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 15px;
-    padding: 20px;
 }
+  
+.form-control {
+  border-radius: 5px;
+}
+
+/* Style for input group texts */
+.input-group-text {
+  background-color: #f0f0f0;
+}
+
+/* Style for the form container */
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* about us page */
+.origin-container {
+  max-width: 650px; /* Adjust the width as needed */
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 50px; /* Add margin at the bottom */
+}
+
 .origin-container p {
   text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.origin-container h2 {
+  text-align: center;
+}
+.toggle-button {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(155, 95, 21, 0); /* Change the background color if needed */
+  padding: 10px;
 }
