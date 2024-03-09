@@ -104,3 +104,19 @@ p {
   background-color: rgb(155, 95, 21, 0); /* Change the background color if needed */
   padding: 10px;
 }
+/* Add CSS for active toggle button */
+#beveragesBtn.active {
+  background-color: rgb(155, 95, 21) !important;
+  color: #fff !important;
+}
+
+#pastriesBtn.active {
+  background-color: rgb(155, 95, 21) !important;
+  color: #fff !important;
+}
+
+/* Add CSS for beverages button background color */
+#beveragesBtn {
+  background-color: #6c757d !important;
+  color: #fff !important;
+}

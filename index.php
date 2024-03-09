@@ -32,7 +32,7 @@
                         <a class="nav-link" href="#">Apps</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
