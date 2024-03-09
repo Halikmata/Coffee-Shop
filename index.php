@@ -9,9 +9,9 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg body-tertiary">
-        <div class="container-fluid" style="padding-left: 70px">
+        <div class="container-fluid" style="padding-left: 70px; margin-top: 30px;">
             <a class="navbar-brand" href="#">
-                <img src="kapeling.png" width="60">
+                <img src="images/kapeling.png" width="60">
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item ml-lg 4" style="margin-right: 20px;">
-                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item ml-lg 4" style="margin-right: 20px;">
                         <a class="nav-link" href="#">Apps</a>
@@ -64,7 +64,7 @@
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px; margin-left: 25px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="espresso.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
+                                    <img src="images/espresso.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -83,7 +83,7 @@
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="capuccino.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
+                                    <img src="images/capuccino.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -102,7 +102,7 @@
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="latte art coffee.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
+                                    <img src="images/latte art coffee.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -127,14 +127,14 @@
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px; margin-left: 25px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="matcha.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
+                                    <img src="images/croissant.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title" style="margin-left: 40px;">Matcha</h5>
-                                        <p class="card-text" style="margin-left: -10px;">With Milk</p>
+                                        <h5 class="card-title" style="margin-left: 40px;">Croissant</h5>
+                                        <p class="card-text" style="margin-left: -10px;">Freshly Baked</p>
                                         <div class="d-flex align-items-center">
-                                            <p class="card-text mb-0" style="margin-left: -10px;"><small class="text-body-secondary">Php 90.00</small></p>
+                                            <p class="card-text mb-0" style="margin-left: -10px;"><small class="text-body-secondary">Php 60.00</small></p>
                                             <!-- Add Button -->
                                             <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21); width: 30px; height: 30px; margin-left: 20px">+</button>
                                         </div>
@@ -146,14 +146,14 @@
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="frappe.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
+                                    <img src="images/pan au chocolat.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title" style="margin-left: 40px;">Vanilla Frappe</h5>
-                                        <p class="card-text" style="margin-left: -10px;">With Oreo</p>
+                                        <h5 class="card-title" style="margin-left: 40px;">Pan Au Chocolat</h5>
+                                        <p class="card-text" style="margin-left: -10px;">Vegan Friendly</p>
                                         <div class="d-flex align-items-center">
-                                            <p class="card-text mb-0" style="margin-left: -10px;"><small class="text-body-secondary">Php 110.00</small></p>
+                                            <p class="card-text mb-0" style="margin-left: -10px;"><small class="text-body-secondary">Php 60.00</small></p>
                                             <!-- Add Button -->
                                             <button type="button" class="btn btn-primary btn-sm rounded-circle" style="background-color: rgb(155, 95, 21); width: 30px; height: 30px; margin-left: 20px">+</button>
                                         </div>
@@ -165,12 +165,12 @@
                         <div class="card mb-3" style="max-width: 340px; margin-right: 20px">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="hot_choco.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
+                                    <img src="images/cheesecake.png" class="img-fluid rounded-start" alt="..." style="max-width: 350px; padding-top: 30px; padding-right: 100px">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title" style="margin-left: 40px;">Hot Chocolate</h5>
-                                        <p class="card-text" style="margin-left: -10px;">With Marshmallows</p>
+                                        <h5 class="card-title" style="margin-left: 40px;">Cheesecake</h5>
+                                        <p class="card-text" style="margin-left: -10px; font-size: 12px">With Caramel Drizzle</p>
                                         <div class="d-flex align-items-center">
                                             <p class="card-text mb-0" style="margin-left: -10px;"><small class="text-body-secondary">Php 70.00</small></p>
                                             <!-- Add Button -->
@@ -197,36 +197,8 @@
     </div>
     <br>
 
-    <!-- About Modal -->
-    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="aboutModalLabel">About KAPEling</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>KAPEling is a coffee shop that takes pride in sourcing the finest beans from around the world. Our story began with a passion for bringing the perfect cup of coffee to our community.</p>
-                    <p>Originating from [Insert Origin], we strive to create an atmosphere where coffee enthusiasts can come together to enjoy the rich flavors and aromas of our carefully crafted brews.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Script to handle modal trigger -->
-    <script>
-        var aboutButton = document.querySelector('.nav-link[href="index.php"]');
-        aboutButton.addEventListener('click', function() {
-            var myModal = new bootstrap.Modal(document.getElementById('aboutModal'));
-            myModal.show();
-        });
-    </script>
 
 </body>
 </html>
