@@ -87,7 +87,7 @@ p {
 }
 
 .origin-container p {
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
   line-height: 1.6;
   color: #333;
@@ -97,14 +97,38 @@ p {
 .origin-container h2 {
   text-align: center;
 }
+/* contact us page */
+.contact-container {
+  max-width: 650px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.contact-container h1 {
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.contact-container p {
+  text-align: justify;
+  padding-left: 0px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* toggle button */
 .toggle-button {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgb(155, 95, 21, 0); /* Change the background color if needed */
+  background-color: rgb(155, 95, 21, 0);
   padding: 10px;
 }
-/* Add CSS for active toggle button */
+/* CSS for active toggle button */
 #beveragesBtn.active {
   background-color: rgb(155, 95, 21) !important;
   color: #fff !important;
@@ -119,4 +143,14 @@ p {
 #beveragesBtn {
   background-color: #6c757d !important;
   color: #fff !important;
+}
+/* .card {
+  background-color: rgb(21, 25, 29, 0.7);
+} */
+.row p {
+  color: white;
+}
+.modal-content h1 {
+  padding-left: 0px;
+  padding-top: 0px;
 }
